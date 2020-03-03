@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AG On The Fly.exe" version="1.1.0.0" publicKeyToken="d8eb97f27556fabd" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AG On The Fly" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="AG On The Fly.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AG On The Fly.exe" size="34728">
+      <assemblyIdentity name="AG On The Fly" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0kiFJV5M6BPRjxC4FTy5S6R/SRjdffX+WLcw1TG5SLg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AG On The Fly.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SKYBOX2\Rick" issuerKeyHash="55f410ca9fed59c9171e133e1d4d3bb7cb236ed1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NnQiI20PxX+gxbA1fFgpVqMcQdG6bmdh2BUo+vimCGw=</DigestValue></Reference></SignedInfo><SignatureValue>AU4SPn94sTO2ZtDvu+OTu7DH2cDwThAufNbYpy56TwhWyreMEH8uR0LpDs719fJWipVqZW2hDMJgDSbcxqIAXgqpfsnHimAis5Ff6ogUAF7w9axsmV90dTQYL4RySBQh7FMKPokPBaDt/x6tntJ0SWazQMKuqX1dDi5q+suInYc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s7LQdEjIiwR0jD5FtQZCKHY7sfZkRnEcpdMX5PtPPVwaj54DwRH+dus7BEcR/WT6k3W3rQYCgbkOELGUlwbtohvYXyAyQAWG2PHM6ChtALMKJ89Qxwt6IyW9m6nr7qWirptHDEP4qGgcwz+ARZdpWFDnvuhcv1Y2WdW9O0z4/Z8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6c08a6f8fa2815d861676ebad1411ca35629587c35b0c5a07fc50f6d23227436" Description="" Url=""><as:assemblyIdentity name="AG On The Fly.exe" version="1.1.0.0" publicKeyToken="d8eb97f27556fabd" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SKYBOX2\Rick</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yEZEPTjkO7f8wSXazorlxOt/wbnyEuibapqM7xgnK4Q=</DigestValue></Reference></SignedInfo><SignatureValue>pJO/mCGcg/OpGNxux5yV991RcU4ZI4gQtbxFA3lT/HNXTFpain3Methu8AXx09yBMVLUjMIm2ksHP2maRp6c40mOzxludmH9sBxZSGEvAeSF+QKe0oy6awi4RYU2zpea/2mdYA+SuJtbbdPMdEsM1gKw4uILSqx61dhF2QTGmao=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s7LQdEjIiwR0jD5FtQZCKHY7sfZkRnEcpdMX5PtPPVwaj54DwRH+dus7BEcR/WT6k3W3rQYCgbkOELGUlwbtohvYXyAyQAWG2PHM6ChtALMKJ89Qxwt6IyW9m6nr7qWirptHDEP4qGgcwz+ARZdpWFDnvuhcv1Y2WdW9O0z4/Z8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQa2o1iln7RZdNh9du1ucDcTANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAUwBLAFkAQgBPAFgAMgBcAFIAaQBjAGswHhcNMTYwNTE1MTgzNTE0WhcNMTcwNTE2MDAzNTE0WjAjMSEwHwYDVQQDHhgAUwBLAFkAQgBPAFgAMgBcAFIAaQBjAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALOy0HRIyIsEdIw+RbUGQih2O7H2ZEZxHKXTF+T7Tz1cGo+eA8ER/nbrOwRHEf1k+pN1t60GAoG5DhCxlJcG7aIb2F8gMkAFhtjxzOgobQCzCifPUMcLeiMlvZup6+6loq6bRwxD+KhoHMM/gEWXaVhQ577oXL9WNlnVvTtM+P2fAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAsKXdIGzbsf0/B49kOQB7Fxy47sax7AfQrJuwvuwnrpfXlbB0/rSFAWbdvAppNp/E95iBQ8ftyW+4zf7veeHDWqlEwSbBgk8be2o9E+mJkvjQgHNR3WMr68hygQyChxKv5j7unsfvv7OSzgpmmu7Q+l0yVgSyph4Dhy1pYKVHYPU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
